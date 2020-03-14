@@ -22,6 +22,7 @@ import Header from "../components/Header";
            Header,
             FooterCore: () => import("../components/Footer")
             },
+       
     };
 
 </script>

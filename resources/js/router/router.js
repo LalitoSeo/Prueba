@@ -29,7 +29,9 @@ const vrouter = new Router({
     },
     routes: [
         route('/','inicio','main',null,{title: 'inicio'}),
-        route("/home", "Home", "home", null, {title: "Home2"})
+        route("/home", "Home", "home", null, {title: "Home2"}),
+        route('/productos', 'Productos', 'productos', null, {title: 'Productos'}),
+        route("/agregar", "Agregar", "agregar", null, {title: "Agregar"}),
 
     ]
 });

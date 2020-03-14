@@ -5,7 +5,8 @@
             <v-toolbar-items>
                 <v-btn text to="/">Inicio</v-btn>
                 <v-btn text to="/home">Menu1</v-btn>
-                <v-btn text>Menu2</v-btn>
+                <v-btn text to="/productos">Productos</v-btn>
+                <v-btn text to="agregar">Nuevo Producto</v-btn>
             </v-toolbar-items>
         </v-app-bar>
 </template>
