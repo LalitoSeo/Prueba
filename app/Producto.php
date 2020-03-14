@@ -25,7 +25,7 @@ class Producto extends Model
                 'descripcion' => 'string',
                 'cantidad' => 'required|integer',
                 'precio' => 'required|numeric',
-                'codigo' => 'requiered|string'
+                'codigo' => 'required|string'
             ]
         );
     }
